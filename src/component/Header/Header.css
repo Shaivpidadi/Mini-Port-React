@@ -1,0 +1,70 @@
+
+/*---------------------------------------
+    4 Navigation section              
+-----------------------------------------*/
+
+.custom-navbar {
+    border: none;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    padding-top: 15px;
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: #656565;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  
+  .custom-navbar .nav li a {
+    font-size: 14px;
+    color: #656565;
+    line-height: 40px;
+    padding-right: 22px;
+    padding-left: 22px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  
+  .custom-navbar .nav li a:hover {
+    background: transparent;
+    color: #353535;
+  }
+  
+  .custom-navbar .navbar-nav > li > a:hover,
+  .custom-navbar .navbar-nav > li > a:focus {
+    background-color: transparent;
+  }
+  
+  .custom-navbar .nav li.active > a {
+    background-color: transparent;
+    color: #353535;
+  }
+  
+  .custom-navbar .navbar-toggle {
+    border: none;
+    padding-top: 10px;
+  }
+  
+  .custom-navbar .navbar-toggle {
+    background-color: transparent;
+  }
+  
+  .custom-navbar .navbar-toggle .icon-bar {
+    background: #353535;
+    border-color: transparent;
+  }
+  
+  @media(min-width:768px) {
+    .custom-navbar {
+      border-bottom: 0;
+      background: 0 0; 
+    }
+    .custom-navbar.top-nav-collapse {
+      background: #ffffff;
+      box-shadow:0 40px 100px rgba(0,0,0,.2);
+    }
+  }   
+  
+  
+  

@@ -1,0 +1,541 @@
+/*---------------------------------------------------------------
+
+  Project Name: Montana - Minimal Portfolio HTML Template
+  File Name: style.css
+  Author: Peng Lam
+  Author URI: http://khaitawng.com
+  Version: 1.0.0
+
+------------------------------------------------------------------*/
+/*----------------------------------------------------------------
+
+// Table of contents //
+
+        Body
+    0.  Typography
+    1.  Buttons
+    2.  General
+    3.  Preloader
+    4.  Navigation section
+    5.  Home section
+    6.  About section
+    7.  Service section
+    8.  Work section
+    9.  Testimonial section
+    10. Client section
+    11. Contact section
+    12. Footer section
+    13. Social icon
+    14. Mobile Responsive styles
+
+------------------------------------------------------------------*/
+
+
+
+
+/*---------------------------------------
+    4 Navigation section              
+-----------------------------------------*/
+
+.custom-navbar {
+  border: none;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  padding-top: 15px;
+}
+
+.custom-navbar .navbar-brand {
+  color: #656565;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.custom-navbar .nav li a {
+  font-size: 14px;
+  color: #656565;
+  line-height: 40px;
+  padding-right: 22px;
+  padding-left: 22px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+.custom-navbar .nav li a:hover {
+  background: transparent;
+  color: #353535;
+}
+
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+
+.custom-navbar .nav li.active > a {
+  background-color: transparent;
+  color: #353535;
+}
+
+.custom-navbar .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+
+.custom-navbar .navbar-toggle {
+  background-color: transparent;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+  background: #353535;
+  border-color: transparent;
+}
+
+@media(min-width:768px) {
+  .custom-navbar {
+    border-bottom: 0;
+    background: 0 0; 
+  }
+  .custom-navbar.top-nav-collapse {
+    background: #ffffff;
+    box-shadow:0 40px 100px rgba(0,0,0,.2);
+  }
+}   
+
+
+
+/*---------------------------------------
+    5 Home section              
+-----------------------------------------*/
+
+#home {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+   display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+   align-items: center;
+  height: 100vh;
+  position: relative;
+  padding-top: 150px;
+}
+
+
+
+/*---------------------------------------
+    6 About section              
+-----------------------------------------*/
+
+.about-text {
+  padding-top: 42px;
+}
+
+.about-text p {
+  padding-top: 6px;
+}
+
+.skill-thumb {
+  padding: 32px 16px 0 0;
+}
+
+.skill-thumb strong {
+  font-weight: normal;
+}
+
+.skill-thumb .progress {
+  background: #ffffff;
+  height: 2px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.skill-thumb .progress-bar {
+  background: #656565;
+  box-shadow: none;
+}
+
+
+
+/*---------------------------------------
+    7 Service section              
+-----------------------------------------*/
+
+#service {
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+#service .service-thumb {
+  padding-top: 22px;
+}
+
+.service-thumb small {
+  color: #656565;
+  font-size: 17px;
+  font-style: italic;
+  display: block;
+  padding: 0 12px;
+}
+
+.service-thumb .fa {
+  border-radius: 100%;
+  font-size: 35px;
+}
+
+
+
+/*---------------------------------------
+    8 Work section              
+-----------------------------------------*/
+
+.about-image img,
+.work-thumb img {
+  width: 100%;
+}
+
+.work-thumb {
+  border-radius: 5px;
+  margin: 15px 5px 5px 5px;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+.work-thumb:hover {
+  background: #ffffff;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+
+.work-overlay h4,
+.work-overlay h5 {
+  margin: 0;
+}
+
+#work .work-overlay {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  position: absolute;
+  bottom: -45px;
+  left: 40px;
+}
+
+#work .col-md-3:hover .work-overlay {
+  bottom: 25px;
+}
+
+#work .work-thumb img {
+  border-radius: 5px;
+}
+
+
+
+/*---------------------------------------
+   9 Testimonial section              
+-----------------------------------------*/
+
+#testimonial .item p {
+  font-size: 19px;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.tst-author {
+  margin-top: 32px;
+}
+
+.tst-author .tst-foto {
+  display: inline-block;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+  margin-right: 16px;
+}
+
+.tst-author .tst-foto img {
+  border-radius: 15px;
+}
+
+.tst-author .tst-author-info {
+  display: inline-block;
+  text-align: left;
+  width: auto;
+  position: relative;
+  top: -28px;
+}
+
+.tst-author .tst-author-info h4 {
+  margin-bottom: 4px;
+}
+
+.tst-author .tst-author-info h5 {
+  letter-spacing: 0.3px;
+  margin-top: 0px;
+}
+
+
+
+/*---------------------------------------
+   10 Client section              
+-----------------------------------------*/
+
+#client .container {
+  background: #f9f9f9;
+  padding: 102px 82px;
+  min-height: 400px;
+}
+
+#client .fa {
+  font-size: 45px;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+
+#client ul li {
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+  width: 14%;
+  margin: 0 12px;
+}
+
+#client ul li.small-width {
+  width: 10%;
+}
+
+
+
+/*---------------------------------------
+    11 Contact section              
+-----------------------------------------*/
+
+.contact-info {
+  padding-top: 22px;
+}
+
+.contact-info h1 {
+  padding-top: 4px;
+}
+
+#contact .text-success,
+#contact .text-danger {
+  display: none;
+}
+
+#contact .form-control {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:focus {
+  border-color: #d9d9d9;
+}
+
+#contact input {
+  height: 50px;
+}
+
+#contact button#cf-submit {
+  background: #242424;
+  border: none;
+  border-radius: 40px;
+  color: #ffffff;
+  height: 50px;
+  margin-top: 5px;
+}
+
+#contact button#cf-submit:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+
+
+/*---------------------------------------
+    12 Footer section              
+-----------------------------------------*/
+
+footer {
+  padding: 10px 0 40px 0;
+}
+
+footer i {
+  visibility: hidden;
+  padding: 0 4px 0 4px;
+}
+
+
+
+/*---------------------------------------
+    13 Social Icon             
+-----------------------------------------*/
+
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+
+.social-icon li a {
+  border-radius: 100%;
+  color: #999;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.social-icon li a:hover {
+  background: #f2f2f2;
+  color: #000000;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+/*---------------------------------------
+    14 Mobile Responsive styles              
+-----------------------------------------*/
+
+@media (max-width: 980px) {
+
+  #home {
+    height: 50vh;
+  }
+
+  #service .service-thumb {
+    padding-bottom: 22px;
+  }
+
+  #work .col-md-3:first-child,
+  #work .col-md-3:nth-of-type(2n+2) {
+    margin-bottom: 65px;
+  }
+
+  #client .container {
+    padding: 82px 62px;
+    min-height: 350px;
+  }
+
+  #client ul li {
+    width: 20%;
+    margin: 0;
+  }
+
+  #client ul li.small-width {
+    width: 15%;
+  }
+
+  #contact-form {
+    padding-top: 32px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 31px;
+  }
+
+  #home {
+    height: 70vh;
+  }
+
+  .custom-navbar {background-color: #ffffff;box-shadow:0 40px 100px rgba(0,0,0,.2);}
+}
+
+
+
+@media (max-width: 767px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .custom-navbar .navbar-brand {
+    line-height: 15px;
+  }
+
+  .custom-navbar .nav li a {
+    line-height: 15px;
+  }
+
+  #about .about-image {padding-top: 32px;}
+
+  #work .col-md-3 {
+    margin-bottom: 75px;
+  }
+}
+
+
+
+@media (max-width: 650px) {
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  .section-btn {
+    font-size: 11px;
+  }
+
+  #home {
+    height: 95vh;
+  }
+
+  #work .col-md-3 {
+    margin-bottom: 80px;
+  }
+
+  #client .container {
+    padding: 42px 22px;
+    min-height: inherit;
+  }
+
+  #client ul li {
+    width: 40%;
+    margin-bottom: 22px;
+  }
+
+  #client ul li.small-width {
+    width: 45%;
+  }
+
+  #client .fa {
+    margin-bottom: 12px;
+  }
+}
+
