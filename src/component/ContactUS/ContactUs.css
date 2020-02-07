@@ -1,0 +1,49 @@
+
+/*---------------------------------------
+    11 Contact section              
+-----------------------------------------*/
+
+.contact-info {
+    padding-top: 22px;
+  }
+  
+  .contact-info h1 {
+    padding-top: 4px;
+  }
+  
+  #contact .text-success,
+  #contact .text-danger {
+    display: none;
+  }
+  
+  #contact .form-control {
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  
+  #contact .form-control:focus {
+    border-color: #d9d9d9;
+  }
+  
+  #contact input {
+    height: 50px;
+  }
+  
+  #contact button#cf-submit {
+    background: #242424;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    height: 50px;
+    margin-top: 5px;
+  }
+  
+  #contact button#cf-submit:hover {
+    background: #000000;
+    color: #ffffff;
+  }

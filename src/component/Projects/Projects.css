@@ -1,0 +1,26 @@
+/*---------------------------------------
+    7 Service section              
+-----------------------------------------*/
+
+#service {
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  
+  #service .service-thumb {
+    padding-top: 22px;
+  }
+  
+  .service-thumb small {
+    color: #656565;
+    font-size: 17px;
+    font-style: italic;
+    display: block;
+    padding: 0 12px;
+  }
+  
+  .service-thumb .fa {
+    border-radius: 100%;
+    font-size: 35px;
+  }
+  

@@ -1,0 +1,31 @@
+/*---------------------------------------
+    6 About section              
+-----------------------------------------*/
+
+.about-text {
+    padding-top: 42px;
+  }
+  
+  .about-text p {
+    padding-top: 6px;
+  }
+  
+  .skill-thumb {
+    padding: 32px 16px 0 0;
+  }
+  
+  .skill-thumb strong {
+    font-weight: normal;
+  }
+  
+  .skill-thumb .progress {
+    background: #ffffff;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .skill-thumb .progress-bar {
+    background: #656565;
+    box-shadow: none;
+  }

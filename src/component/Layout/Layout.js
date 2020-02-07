@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import Header from '../Header/Header'
 import Home from '../Home/Home'
+import AboutMe from '../AboutMe/AboutMe'
+import Project from '../Projects/Projects'
+import Testimonial from '../Testimonial/Testimonial'
+import ContactUs from '../ContactUS/ContactUs'
+import Footer from '../Footer/Footer'
 
 class Layout extends Component {
   render () {
@@ -8,11 +13,11 @@ class Layout extends Component {
       <div>
         <Header />
         <Home />
-        {/* <p>Main</p>
-        <p>About me</p>
-        <p>Projects</p>
-        <p>Testimonial</p>
-        <p>Let's talk</p> */}
+        <AboutMe />
+        <Project />
+        <Testimonial />
+        <ContactUs />
+        <Footer />
       </div>
     )
   }

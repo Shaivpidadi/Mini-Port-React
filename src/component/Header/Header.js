@@ -40,7 +40,7 @@ class Header extends Component {
               <span className='icon icon-bar' />
             </button>
             {/* <!-- lOGO --> */}
-            <a href='index.html' className='navbar-brand'>Montana</a>
+            <a href='index.html' className='navbar-brand'>Shaishav</a>
           </div>
           {/* <!-- NAVIGATION LINKS --> */}
           <div className='collapse navbar-collapse'>

@@ -1,0 +1,55 @@
+
+/*---------------------------------------
+    12 Footer section              
+-----------------------------------------*/
+
+footer {
+    padding: 10px 0 40px 0;
+  }
+  
+  footer i {
+    visibility: hidden;
+    padding: 0 4px 0 4px;
+  }
+  
+  
+  
+  /*---------------------------------------
+      13 Social Icon             
+  -----------------------------------------*/
+  
+  .social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icon li {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  .social-icon li a {
+    border-radius: 100%;
+    color: #999;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .social-icon li a:hover {
+    background: #f2f2f2;
+    color: #000000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  
