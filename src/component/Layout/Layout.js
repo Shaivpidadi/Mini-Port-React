@@ -6,6 +6,7 @@ import Project from '../Projects/Projects'
 import Testimonial from '../Testimonial/Testimonial'
 import ContactUs from '../ContactUS/ContactUs'
 import Footer from '../Footer/Footer'
+import Services from '../Services/Services'
 
 class Layout extends Component {
   render () {
@@ -14,8 +15,9 @@ class Layout extends Component {
         <Header />
         <Home />
         <AboutMe />
+        <Services />
         <Project />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <ContactUs />
         <Footer />
       </div>
